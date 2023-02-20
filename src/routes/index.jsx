@@ -9,7 +9,7 @@ const IndexRoutes = () => (
     </Route>
     <Route
       path="*"
-      element={<Navigate to="/collection/final-touches" replace />}
+      element={<Navigate to="collection/final-touches" replace />}
     />
   </Routes>
 );
